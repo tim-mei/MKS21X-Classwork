@@ -25,10 +25,11 @@ public class StringInt{
   }
 
   public static void main(String[] args) {
-    System.out.println('4');
+    System.out.println("Should return 17: " + stringToInt("4"));
     System.out.println("Should return 17: " + stringToInt("041705"));
     System.out.println("Should return -8: " + stringToInt("-8"));
     System.out.println("Should return -5: " + stringToInt("0-41-705"));
     System.out.println("Should return 0: " + stringToInt("0"));
+    System.out.println("What a blank returns: " + stringToInt(""));
   }
 }
