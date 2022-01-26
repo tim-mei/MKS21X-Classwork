@@ -11,10 +11,21 @@ public class Recursion{
     }
   }
 
+  public static boolean isEven(int k){
+    //base case
+    if (){
+      return true;
+    }
+    else{
+
+    }
+  }
+
   public static void main(String[] args) {
     System.out.println(factorial(5));
     System.out.println(factorial(10));
     System.out.println(factorial(0));
   }
-  
+
+
 }
